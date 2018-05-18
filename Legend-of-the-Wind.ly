@@ -26,11 +26,15 @@ lotw_piano_upper = \relative c''
 {
   \clef treble
   r1
-  r2
-  r4. ees16 f
+  r2 r4. ees16 f
   g2 g4. bes8
   a2 a8 g4 f8
   g1
+  r2 r4. ees16 f
+  g2 g4. bes8
+  c4. bes8 a4 bes4
+  g1
+  r2 r4. bes8
 }
 
 lotw_piano_lower = \relative c
@@ -40,6 +44,11 @@ lotw_piano_lower = \relative c
   c,,8 g' d' ees bes'2
   c,,8 g' d' ees bes'2
   c,,8 g' d' ees a2
+  c,,8 g' d' ees bes'2
+  c,,8 g' d' ees bes'2
+  c,,8 g' d' ees bes'2
+  c,,8 g' d' ees a2
+  c,,8 g' d' ees bes'2
   c,,8 g' d' ees bes'2
 }
 
