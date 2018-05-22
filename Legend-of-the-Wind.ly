@@ -84,6 +84,15 @@ lotw_piano_upper = \relative c''
   <c c'>2. <c c'>8 <ees ees'>
   <d d'>2 <d d'>8 <c c'>4 <bes bes'>8
   <c c'>2. f'8 <ees aes>
+  <f bes> <d g>4 <ees aes>8 <aes,, aes'>4 <bes bes'>
+  <c c'>2. <c c'>8 <ees ees'>
+  <f f'>4. <ees ees'>8 <d d'>4 <ees ees'>
+  <c c'>2. f'8 <ees aes>
+  <f bes> <g c> <g c> <f bes> <c f>4 ees
+  <g, bes>2 <g bes>4. <f aes>8
+  <ees g>4. <f aes>8 <g bes>4. <aes c>8
+  <f bes d>1
+  <f bes d>2 <ees ees'>4 <f f'>
 }
 
 lotw_piano_lower = \relative c
@@ -93,15 +102,9 @@ lotw_piano_lower = \relative c
   c,,8 g' d' ees bes'2
   c,,8 g' d' ees bes'2
   c,,8 g' d' ees a2
-  \repeat unfold 3
-  {
-    c,,8 g' d' ees bes'2
-  }
+  \repeat unfold 3 {c,,8 g' d' ees bes'2}
   c,,8 g' d' ees a2
-  \repeat unfold 4
-  {
-    c,,8 g' d' ees bes'2
-  }
+  \repeat unfold 4 {c,,8 g' d' ees bes'2}
   c,,8 a' c f r2
   c,8 a' c f r f c a
   <<
@@ -174,7 +177,19 @@ lotw_piano_lower = \relative c
     }
   >>
   f'8 c' g' aes ees' aes, g ees
-  f, c' g' aes ees' aes, g ees
+  \repeat unfold 2 {f, c' g' aes ees' aes, g ees}
+  <<
+    {
+      r c g' aes ees' aes, g c,
+    } \\
+    {
+      <f,, f'>1
+    }
+  >>
+  f'8 c' g' aes ees' aes, g ees
+  \repeat unfold 4 {f, c' g' aes ees' aes, g ees}
+  f, d' f bes d bes f d
+  f, d' f bes r bes f d
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
