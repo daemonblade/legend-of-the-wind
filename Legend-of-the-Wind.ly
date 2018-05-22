@@ -48,14 +48,10 @@ lotw_piano_upper = \relative c''
     }
   >>
   a''2 <bes, bes'>4 <c c'>
-  <<
-    {
-      <ees g d'>2 \tuplet 3/2 {<ees g d'>4 <ees ees'> <f f'>}
-    } \\
-    {
-      r <ees, g d'>8 c' r2
-    }
-  >>
+  <ees g d'> <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4 <ees ees'> <f f'>}
+  <ees g d'>4 <ees, g>2 <bes' bes'>8 <c c'>
+  <ees g d'>4 <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4 <ees ees'> <f f'>}
+  <ees g d'>4 <ees, g d'>8 c' d4 <bes bes'>
 }
 
 lotw_piano_lower = \relative c
@@ -84,6 +80,16 @@ lotw_piano_lower = \relative c
       <c,, c'>1
     }
   >>
+  c'8 g' d' c <g d'> ees g c
+  <<
+    {
+      r8 g d' c g ees g c
+    } \\
+    {
+      <c,, c'>1
+    }
+  >>
+  c'8 g' d' c g ees bes bes,
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
