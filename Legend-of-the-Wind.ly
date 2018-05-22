@@ -13,7 +13,6 @@
   title = "Legend of the Wind"
   subtitle = "Nausicaä of the Valley of the Wind"
   composer = "Joe Hisaishi"
-  arranger = "Bernardo Torrecillas Terrón"
   tagline = "https://github.com/daemonblade/legend-of-the-wind"
 }
 
@@ -52,6 +51,17 @@ lotw_piano_upper = \relative c''
   <ees g d'>4 <ees, g>2 <bes' bes'>8 <c c'>
   <ees g d'>4 <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4 <ees ees'> <f f'>}
   <ees g d'>4 <ees, g d'>8 c' d4 <bes bes'>
+  <<
+    {
+      c'8 \tuplet 3/2 {d16 c bes}
+    } \\
+    {
+      c,4
+    }
+  >> <c c'>2 <c, c'>4
+  <d d'>2 <ees ees'>8 <c' aes' c> <bes bes'> <aes aes'>
+  <bes g' bes>2 <g bes ees g>
+  <g bes ees g> r8 <bes g' bes> <aes aes'> <g g'>
 }
 
 lotw_piano_lower = \relative c
@@ -90,6 +100,24 @@ lotw_piano_lower = \relative c
     }
   >>
   c'8 g' d' c g ees bes bes,
+  <<
+    {
+      r c' ees bes' aes ees aes ees
+    } \\
+    {
+      <aes,, aes'>1
+    }
+  >>
+  aes'8 ees' aes ees c' aes ees aes
+  <<
+    {
+      r bes, f' bes, g' bes, ees bes
+    } \\
+    {
+      <ees ees'>1
+    }
+  >>
+  <ees, ees'>8 bes' f' bes, g' bes, ees bes
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
