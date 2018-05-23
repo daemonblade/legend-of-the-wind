@@ -43,22 +43,22 @@ lotw_piano_upper = \relative c''
       a1
     } \\
     {
-      <c, f>2 c8 a f c
+      <c, f>2\mf c8 a f c
     }
   >>
-  a''2 <bes, bes'>4 <c c'>
-  <ees g d'> <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4 <ees ees'> <f f'>}
+  a''2 <bes, bes'>4( <c c'>)
+  <ees g d'> <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4( <ees ees'> <f f'>)}
   <ees g d'>4 <ees, g>2 <bes' bes'>8 <c c'>
-  <ees g d'>4 <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4 <ees ees'> <f f'>}
-  <ees g d'>4 <ees, g d'>8 c' d4 <bes bes'>
+  <ees g d'>4 <ees, g d'>8 c' \tuplet 3/2 {<ees g d'>4( <ees ees'> <f f'>)}
+  <ees g d'>4 <ees, g d'>8( c' d4) <bes bes'>
   <<
     {
-      c'8 \tuplet 3/2 {d16 c bes}
+      c'8 \tuplet 3/2 {d16 c bes} c2
     } \\
     {
-      c,4
+      c,2.
     }
-  >> <c c'>2 <c, c'>4
+  >> <c, c'>4
   <d d'>2 <ees ees'>8 <c' aes' c> <bes bes'> <aes aes'>
   <bes g' bes>2 <g bes ees g>
   <g bes ees g> r8 <bes g' bes> <aes aes'> <g g'>
