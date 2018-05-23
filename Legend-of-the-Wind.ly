@@ -125,6 +125,36 @@ lotw_piano_upper = \relative c''
       r8 c g' f g2
     }
   >>
+  \bar "||" \key f \minor
+  <<
+    {
+      f'8 \tuplet 3/2 {g16 f ees} f2.
+    } \\
+    {
+      f,2. aes4
+    }
+  >>
+  <<
+    {
+      f'2.
+    } \\
+    {
+      f,8 \tuplet 3/2 {g16 f ees} f2
+    }
+  >> <ees ees'>8 <des des'>
+  <ees ees'>2 <c c'>
+  <aes' c> c8 <ees, ees'>8 <des des'> <c c'>
+  <des des'>2 <bes bes'>
+  <ges' bes> bes8 <des, des'> <c c'> <bes bes'>
+  <<
+    {
+      c'8 \tuplet 3/2 {des16 c bes} c2.
+    } \\
+    {
+      c,2. c8 \tuplet 3/2 {des16 c bes}
+    }
+  >>
+  <f' c'>2 <e c'>
 }
 
 lotw_piano_lower = \relative c
@@ -254,6 +284,64 @@ lotw_piano_lower = \relative c
       f,1
     }
   >>
+  \bar "||" \key f \minor
+  <<
+    {
+      r8 <f' aes ees'> des' <f, aes c> <des bes'> <f aes> des <f g>16 aes
+    } \\
+    {
+      <des,,, des'>1
+    }
+  >>
+  <<
+    {
+      c'''8 <des, aes'> f <f aes> r <f aes> r <f aes>
+    } \\
+    {
+      des,2 des
+    }
+  >>
+  <<
+    {
+      r8 <c' ees> aes' <ees bes'> c' <ees, bes'> c' <ees, ees'>
+    } \\
+    {
+      <aes,, aes'>1
+    }
+  >>
+  <<
+    {
+      r8 <aes'' c ees> r <aes c ees> r <aes c ees> r <aes, aes'>
+    } \\
+    {
+      aes1
+    }
+  >>
+  <<
+    {
+      r8 <bes des> ges' <des aes'> bes' <des, aes'> bes' <des, des'>
+    } \\
+    {
+      <ges,, ges'>1
+    }
+  >>
+  <<
+    {
+      r8 <ges'' bes des> r <ges bes des> r <ges bes des> r <des des'>
+    } \\
+    {
+      ges,1
+    }
+  >>
+  <<
+    {
+      r8 <f' g c> r <f g c> r <f g c> r <f g c>
+    } \\
+    {
+      <c,, c'>1
+    }
+  >>
+  <c'' f g c>2 <c e g c>
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
