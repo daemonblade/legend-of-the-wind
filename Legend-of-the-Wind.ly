@@ -26,18 +26,18 @@ lotw_begin =
 lotw_piano_upper = \relative c''
 {
   \clef treble
-  r1
+  r1\p
   r2 r4. ees16 f
-  g2 g4. bes8
-  a2 a8 g4 f8
+  g2~ g4. bes8
+  a2~ a8 g4 f8
   g1
   r2 r4. ees16 f
-  g2 g4. bes8
-  c4. bes8 a4 bes4
+  g2~ g4. bes8(
+  c4.) bes8( a4 bes4)
   g1
   r2 r4. bes8
-  <d, f>2 <d f>4. ees8
-  d4. ees8 f4. g8
+  <d, f>2~\mp <d f>4. ees8(
+  d4.) ees8( f4.) g8
   <<
     {
       a1
@@ -155,18 +155,19 @@ lotw_piano_upper = \relative c''
     }
   >>
   <f' c'>2 <e c'>
+  \bar "|."
 }
 
 lotw_piano_lower = \relative c
 {
   \clef bass
-  c8 g' d' ees bes'2
-  c,,8 g' d' ees bes'2
-  c,,8 g' d' ees bes'2
-  c,,8 g' d' ees a2
-  \repeat unfold 3 {c,,8 g' d' ees bes'2}
-  c,,8 g' d' ees a2
-  \repeat unfold 4 {c,,8 g' d' ees bes'2}
+  c8( g' d' ees bes'2)
+  c,,8( g' d' ees bes'2)
+  c,,8( g' d' ees bes'2)
+  c,,8( g' d' ees a2)
+  \repeat unfold 3 {c,,8( g' d' ees bes'2)}
+  c,,8( g' d' ees a2)
+  \repeat unfold 4 {c,,8( g' d' ees bes'2)}
   c,,8 a' c f r2
   c,8 a' c f r f c a
   <<
@@ -342,6 +343,7 @@ lotw_piano_lower = \relative c
     }
   >>
   <c'' f g c>2 <c e g c>
+  \bar "|."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
